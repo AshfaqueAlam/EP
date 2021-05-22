@@ -5,7 +5,7 @@
 
 
 # Define a parent class Person.
-class Person(object):    # `object` written b/w () means. Class will take argument.
+class Person(object):    # `object` written b/w () means, this class doesn't have any parent class. Which means its is a parent class. It is an old convention used in Python 2.x. But it is backward compatible in Python 3.x. So, in Python3, if you write, `class Person:` it will still implicitly inherit from 'object'. So it is equal to `class Person(object):`. But its a good habit to use the new style even though the old style still works.
     "returns a Person object with given name"    # Or you can use ' ' as well. Its called `String Literals`.
     # https://docs.python.org/2.0/ref/strings.html#:~:text=In%20plain%20English.
     # Any constant string is known as `String Literal`. Also, it can be assigned to a variable, eg., a='This is string literal.'
@@ -19,6 +19,7 @@ class Person(object):    # `object` written b/w () means. Class will take argume
         return self.name
 
 
+# If defining a subclass. We put parent class in parenthesis. Eg., `class Student(Person):`, here `Student` is subclass which is inherited from the parent class, `Person`.
 # Define a subclass Student. (So we can access the functions or methods of parent class alongwith we can add new functionality in our subclass without affecting the parent class.)
 # Instead of copying the code over and over in every subclass we can just inherit in it and use that parent class methods over and over again.
 
