@@ -14,14 +14,14 @@ class Person(object):    # `object` written b/w () means, this class doesn't hav
     def get_name(self, name):
         self.name = name        # RHS `name` provided by user as argument to the function. Which is assigned to another variable called `name` and is accessed by the `self` keyword.
 
-    def get_details(self):      # No argument will be passed while callig it.
+    def get_details(self):      # No argument will be passed while calling it.
         "returns a string containing name of person"
         return self.name
 
 
 # If defining a subclass. We put parent class in parenthesis. Eg., `class Student(Person):`, here `Student` is subclass which is inherited from the parent class, `Person`.
 # Define a subclass Student. (So we can access the functions or methods of parent class alongwith we can add new functionality in our subclass without affecting the parent class.)
-# Instead of copying the code over and over in every subclass we can just inherit in it and use that parent class methods over and over again.
+# Instead of copying the code over and over again in every subclass we can just inherit in it and use that parent class methods over and over again.
 
 class Student(Person):    # When calling a subclass. 1st it will look into the subclass content then it will look into the parent class then it search for builtin objects. EVERY CALSS IS INHERITED FROM THIS BUILTIN OBJECT CLASS.
     "return a Student object, takes 3 arguments"
