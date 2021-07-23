@@ -14,6 +14,6 @@
 
 ## How to Compile & Run :-
 > javac Ashfaque.java
-> java Ashfaque
+ java Ashfaque
 
-You only need to compile the [main class file](Ashfaque.java). And a `.class` file will be created for each of the `.java` file even if its inside a [package](/[Java]%20Manual%20Package%20Creation%20Example/mypackages) and is imported in the [main class](Ashfaque.java) `.java` file.
+You only need to compile the [main class file](Ashfaque.java). And a `.class` file will be generated for each of the `.java` file, even if its inside a [package](/[Java]%20Manual%20Package%20Creation%20Example/mypackages) and is imported in the [main class](Ashfaque.java) `.java` file.
