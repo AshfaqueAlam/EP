@@ -8,7 +8,7 @@
 
 - Keep the [mypackages](/[Java]%20Manual%20Package%20Creation%20Example/mypackages) dir in the same dir as of the [main class](Ashfaque.java) `.java` file.
 
-- Keep all the `.java` files inside [mypackages](/[Java]%20Manual%20Package%20Creation%20Example/mypackages) if you want to keep it in the package.
+- Keep all the `.java` files inside [mypackages](/[Java]%20Manual%20Package%20Creation%20Example/mypackages), if you want to keep it in the package.
 
 - Also write `package mypackages` in the beginning of each `.java` files inside [mypackages](/[Java]%20Manual%20Package%20Creation%20Example/mypackages).
 
