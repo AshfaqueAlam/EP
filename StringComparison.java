@@ -3,7 +3,7 @@ class StringComparison {
         String s1 = "A";
         String s2 = "A";
         String s3 = "A";
-        String s4 = new String("A");
+        String s4 = new String("A");    // Object of type String class.
 
         // Compare s1 & s2. Should return `true` as both refers to same object in memory.
         System.out.println(s1 + " == " + s2 + ": " + (s1 == s2));
