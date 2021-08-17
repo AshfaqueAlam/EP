@@ -1,7 +1,7 @@
-public class Thread_by_extending extends Thread {
+public class ThreadByExtending extends Thread {
     protected int count, inc, delay;
 
-    public Thread_by_extending(int init, int inc, int delay) {
+    public ThreadByExtending(int init, int inc, int delay) {
         this.count = int; this.inc = inc; this.delay = delay;
     }
  
@@ -16,7 +16,7 @@ public class Thread_by_extending extends Thread {
     }
  
     public static void main(String[] args) {
-        new Thread_by_extending(0, 1, 33).start();
-        new Thread_by_extending(0, -1, 100).start();
+        new ThreadByExtending(0, 1, 33).start();
+        new ThreadByExtending(0, -1, 100).start();
     }
 }
