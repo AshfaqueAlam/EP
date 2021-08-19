@@ -1,3 +1,5 @@
+// Third brackets [] not synchronized example.
+
 package java_threads;
 class First {
     public void display(String msg) {
@@ -32,3 +34,10 @@ public class NoSyncronization {
         Second ss2 = new Second(fnew, "programmer");
     }
 }
+
+
+/*
+*[welcome[new[programmer
+]
+]
+*/

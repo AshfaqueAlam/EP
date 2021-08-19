@@ -16,6 +16,7 @@ public class ThrowsKeyword {
     }
 }
 
+// NB:- FileNotFoundException is a subset of IOException. And two ways to forcefully show exception, one with the `throw` keyword and another is with the `throws` keyword.
 
 
 /* OUTPUT :-

@@ -1,6 +1,6 @@
 public class ThrowUserGenException {
     public static void divideByZero() {
-        throw new ArithmeticException("Try to divide by 0");
+        throw new ArithmeticException("Try to divide by 0");    // Forcefully show exception even without operation.
     }
 
     public static void main(String[] args) {

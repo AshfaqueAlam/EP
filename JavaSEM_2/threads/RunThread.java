@@ -1,4 +1,4 @@
-class MySmpThread extends Thread {
+class MySmpThread extends Thread {    // Extend `Thread` class then maintain life cycle Running etc.
     public static int myCount = 0;
 
     public void run() {
@@ -14,7 +14,7 @@ class MySmpThread extends Thread {
 }
 
 public class RunThread {
-    public static void main(String[] args) {
+    public static void main(String[] args) {    // Output changes in each run.
         System.out.println("Starting Main Thread...");
         MySmpThread mst = new MySmpThread();
         mst.start();

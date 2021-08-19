@@ -1,3 +1,9 @@
+/* Bracket synchronization :-
+[welcome]
+[new]
+[programmer]
+*/
+
 package java_threads;
 
 class First1
